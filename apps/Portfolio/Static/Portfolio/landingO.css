@@ -1,0 +1,522 @@
+html, body {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    margin: 0; 
+}
+
+.wrapper {
+    width:100%;
+    min-height: 100%;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    transition: 0.5s ease-out;
+}
+
+    #navBar a {
+        font-family: Arial, Helvetica, sans-serif;
+        float: right;
+        color: dodgerblue;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+    }
+nav.scroll {
+    border: 1px whitesmoke;
+    background-color: black;
+    opacity: 0.9;
+    color: dodgerblue;
+    box-shadow: 0px 4px 7px #777;
+}
+#navBar.scroll a{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    display: block;
+    color: dodgerblue;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+nav p {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .085em;
+    margin-top: 15px;
+    margin-left: 100px;
+    color: dodgerblue;
+}
+
+
+.one {
+    width: 100%;
+    height: 800px;
+    background-image:url('Images/ProfilePic.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .oneInfo {
+        width: 800px;
+        height: 500px;
+        padding: 150px 5px 5px 5px;
+        margin-left: 50%;
+    }
+        .one h1 {
+            padding-top: 75px;;
+            margin-top: 0;
+            text-align: center;
+            font-size: 37px;
+            color: slategrey;
+        }
+        .one p {
+            text-align: center;
+            font-size: 20px;
+            color: slategrey;
+        }        
+        .oneProfilePic {
+            width: 300px;
+            margin: auto;
+        }
+
+    #aboutMeContainer button {
+        margin-bottom: 0px;
+    }
+    #aboutMeContainer{
+        height: 45px;
+        width: 200px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+        margin-left: 15%;
+        background-color: dodgerblue;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        border: none;
+        outline: none;
+        
+    }   
+        #aboutMeContainer p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 0px; 
+            margin-bottom: 0px;
+        }
+
+
+    #projectsTag {
+        height: 45px;
+        width: 200px;
+        margin-top: -50px;
+        margin-left: 50%;
+        background: black;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #projectsTag p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-shadow: -1px 0 dodgerblue, 0 1px dodgerblue, 1px 0 dodgerblue, 0 -1px dodgerblue;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+.two {
+    padding-top: 60px;
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: dodgerblue;
+}
+    .two h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 30px;
+        margin-top: 0px;   
+    }
+    .two h2 {
+        /* padding-top: -50px; */
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 30px;
+        padding-top: 125px;
+        margin-top: 0px;
+    }
+    .twoPContainer {
+        width: 700px;
+        height: 200px;
+        margin: auto;
+        font-weight: lighter;
+        text-align: center;
+        color: white;
+    }
+
+    #skillsTag {
+        height: 45px;
+        width: 200px;
+        margin-top: -50px;
+        margin-left: 30%;
+        background: lightgray;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #skillsTag p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+.three {
+    width: 100%;
+    height: 800px;
+    padding-top: 70px;
+    background: lightgray;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.threeWrapperShadow {
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient( rgb(179, 179, 179), whitesmoke)
+}
+
+    #skillsHeader {
+        width: 100%;
+        background: dodgerblue;
+    }
+        #skillsContainer {
+            width: 200px;
+            margin-left: 65%;
+        }   
+            #skillsContainer p {
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-size: 40px;
+                margin-top: 0px;
+            }
+
+    .technologies {
+        width: 100%;
+        height: 100px;
+        margin-top:0px;
+    }
+    .techContainerOne {
+        margin: auto;
+        width: 1050px;
+    }
+    .techContainerTwo {
+        margin: auto;
+        width: 1050px;
+    }
+        .techHeaderSquare {
+            background: black;
+            width:200px;
+            height: 50px;
+            margin: auto;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px; 
+        }
+        .techHeaderSquare p {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin:0px;
+        }
+        .languages {
+            display: inline-block;
+            background: black;
+            margin: 25px;
+            padding: 5px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px; 
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px; 
+        }
+        .languages p {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin:0px;
+        }
+            .langcontainer {
+                width:368px;
+                height: auto;
+                margin: auto;
+            }
+            
+        .langImg {
+            padding: 5px;
+            margin: 5px;
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+
+        .frameworks {
+            display: inline-block;
+            background: black;
+            margin: 25px;
+            padding: 5px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px; 
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px; 
+        }
+        .frameworks p {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin:0px;
+        }
+            .framecontainer {
+                width:244px;
+                height: auto;
+                margin: auto;
+            }
+        .skills{
+            width: 100%;
+            height: 500px;
+            background-color: transparent;
+            box-shadow: 1px 7px  rgb(232, 230, 230);
+        }
+            .skillsimg {
+                width: 130px;
+                height: 130px;
+                margin: auto;
+            }
+
+            .skillsLaptop {
+                width: 130px;
+                height: 130px;
+                /* margin: auto; */
+            }
+            .skills p {
+                font-size: 20px;
+                text-align: center;
+            }
+            .skills h2 {
+                text-align: center;
+            }
+            .skills h3 {
+                text-align: center;
+                font-weight: normal;
+                color: dodgerblue;
+            }
+            .skills h5 {
+                text-align: center;
+            }
+
+
+
+.four {
+    padding-top: 70px;
+    width: 100%;
+    background-color: black;
+}
+    .recentWorksContainer {
+        padding-top: 30px;
+        width: 940px;
+        height: 400px;
+        margin: auto;
+        position: relative;
+    }
+
+    .worksWrapper {
+        position: relative;
+        width: 300px;
+        height: 230px;
+        padding: 5px;
+        display: inline-block;
+    }
+    .worksWrapperShadowContainer {
+        width: 300px;
+        height: 10px;
+        margin: auto;
+    }
+    .worksWrapperShadow {
+        width: 97%;
+        height: 10px;
+        margin:auto;
+        background-image: linear-gradient(rgba(99, 98, 98, 0.2), black);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+        .works {
+            width: 300px;
+            height: 200px;
+            opacity: 1;
+            transition: .5s ease;
+            backface-visibility: hidden;
+            background-color: dodgerblue;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-bottom: -5px;
+            display: inline-block;
+            box-shadow: 0px 4px 7px #777;
+        }
+            .worksProject {
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+            }
+            .worksWrapper:hover .works {
+                opacity: 0.3;
+            }
+
+            .worksWrapper:hover .worksProject {
+                opacity: 1;
+            }
+
+            .text {
+                border: 1px solid dodgerblue;
+                color: dodgerblue;
+                font-size: 16px;
+                padding: 16px 32px;
+                transition: .5s ease;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+              }
+            .text:hover {
+                background-color: dodgerblue;
+                color: white;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                font-size: 16px;
+                padding: 16px 32px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        .seeMoreContainer {
+            width: 100%;
+            height: 50px;
+        }
+            .seeMoreButton {
+                height: 48px;
+                width: 130px;
+                border: 1px solid whitesmoke;
+                margin: auto;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                transition: .5s ease;
+            }
+            .seeMoreButton p {
+                font-family: Arial, Helvetica, sans-serif;
+                color: whitesmoke;
+                text-align: center;
+                transition: .5s ease;
+            }
+            .seeMoreButton:hover {
+                height: 48px;
+                width: 130px;
+                border: 1px solid dodgerblue;
+                background-color: whitesmoke;
+                transition: .5s ease;
+                margin: auto;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            .seeMoreButton:hover p{
+                color: dodgerblue;
+                text-align: center;
+                transition: .5s ease;
+            }
+
+            #socialTag {
+                height: 45px;
+                width: 200px;
+                margin-top: -50px;
+                margin-left: 40%;
+                background: gray;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            #socialTag p {
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                text-shadow: -1px 0 dodgerblue, 0 1px dodgerblue, 1px 0 dodgerblue, 0 -1px dodgerblue;
+                text-align: center;
+                font-size: 40px;
+                margin-top: 0px;
+            }
+.five {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(77, 77, 77);
+}
+    .socialsWrapper {
+        padding-top: 200px;
+        width: 164px;
+        margin: auto;
+    }
+        .socialCircle {
+            width: 50px;
+            height: 50px;
+            border: 1px solid white;
+            border-radius: 100%;
+            margin: auto;
+            transition: .5s ease;
+            background-color:rgb(77, 77, 77);
+            display: inline-block;
+        }
+        .socialCircle:hover {
+            width: 50px;
+            height: 50px;
+            border: 1px solid rgb(55, 55, 55);
+            border-radius: 100%;
+            margin: auto;
+            transition: .5s ease;
+            background-color: dodgerblue;
+        }
+
+
+        .iconWrapper {
+            width: 30px;
+            padding: 10px;
+            margin: auto   
+        }
+
+        img {
+            width: 30px;
+        }
+        .five p {
+            text-align: center;
+            color: whitesmoke;
+        }
